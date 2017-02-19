@@ -24,4 +24,16 @@
   <data name="start.Content" xml:space="preserve">
     <value>شروع</value>
   </data>
+  <data name="error" xml:space="preserve">
+    <value>خطایی وجود داشت</value>
+  </data>
+  <data name="error_notsupport" xml:space="preserve">
+    <value>تجزیه و نمایش تجهیزات کنونی شما را پشتیبانی کند زبان کتاب لطفا جعبه زیر دستی زبان را انتخاب کنید را انتخاب کنید</value>
+  </data>
+  <data name="error_pdfwithpassword" xml:space="preserve">
+    <value>قادر به خواندن فایل های پی دی اف با رمز عبور</value>
+  </data>
+  <data name="error_pleasechoosefilefirst" xml:space="preserve">
+    <value>لطفا فایل را انتخاب کنید</value>
+  </data>
 </root>

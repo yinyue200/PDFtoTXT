@@ -24,4 +24,16 @@
   <data name="start.Content" xml:space="preserve">
     <value>Cychwyn</value>
   </data>
+  <data name="error" xml:space="preserve">
+    <value>Roedd gwall</value>
+  </data>
+  <data name="error_notsupport" xml:space="preserve">
+    <value>Nid yw cefnogi'r dosrannu ac arddangos eich offer presennol y llyfrau iaith un, os gwelwch yn dda Dewiswch y blwch isod i ddewis yr iaith eich hun</value>
+  </data>
+  <data name="error_pdfwithpassword" xml:space="preserve">
+    <value>Heb lwyddo i ddarllen ffeiliau PDF gyda chyfrinair</value>
+  </data>
+  <data name="error_pleasechoosefilefirst" xml:space="preserve">
+    <value>Dewiswch ffeil</value>
+  </data>
 </root>

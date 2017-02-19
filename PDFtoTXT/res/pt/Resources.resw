@@ -24,4 +24,16 @@
   <data name="start.Content" xml:space="preserve">
     <value>tela inicial</value>
   </data>
+  <data name="error" xml:space="preserve">
+    <value>Houve um erro</value>
+  </data>
+  <data name="error_notsupport" xml:space="preserve">
+    <value>Não oferece suporte a análise e a exibição de seu equipamento atual os mesmos livros de língua, por favor, marque a caixa abaixo para selecionar manualmente o idioma</value>
+  </data>
+  <data name="error_pdfwithpassword" xml:space="preserve">
+    <value>Não é possível ler arquivos PDF com uma senha</value>
+  </data>
+  <data name="error_pleasechoosefilefirst" xml:space="preserve">
+    <value>Por favor, selecione um arquivo</value>
+  </data>
 </root>

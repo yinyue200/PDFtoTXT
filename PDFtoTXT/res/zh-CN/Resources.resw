@@ -123,6 +123,18 @@
   <data name="choosesaveloc.Content" xml:space="preserve">
     <value>选择保存位置</value>
   </data>
+  <data name="error" xml:space="preserve">
+    <value>出错</value>
+  </data>
+  <data name="error_notsupport" xml:space="preserve">
+    <value>不支持解析与您当前设备显示语言相同的书籍，请在下方选择框内手动选择语言</value>
+  </data>
+  <data name="error_pdfwithpassword" xml:space="preserve">
+    <value>无法读取带密码的PDF文件</value>
+  </data>
+  <data name="error_pleasechoosefilefirst" xml:space="preserve">
+    <value>请先选择文件</value>
+  </data>
   <data name="openfile.Content" xml:space="preserve">
     <value>打开文件</value>
   </data>

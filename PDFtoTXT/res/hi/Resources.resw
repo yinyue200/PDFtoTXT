@@ -24,4 +24,16 @@
   <data name="start.Content" xml:space="preserve">
     <value>प्रारंभ</value>
   </data>
+  <data name="error" xml:space="preserve">
+    <value>त्रुटि में</value>
+  </data>
+  <data name="error_notsupport" xml:space="preserve">
+    <value>पार्स करने और अपने वर्तमान उपकरणों के प्रदर्शन का समर्थन नहीं करता है एक ही भाषा किताबें, कृपया मैन्युअल रूप से भाषा का चयन करने के लिए नीचे दिए बॉक्स का चयन करें</value>
+  </data>
+  <data name="error_pdfwithpassword" xml:space="preserve">
+    <value>एक पासवर्ड से पीडीएफ फाइलों को पढ़ने के लिए में असमर्थ</value>
+  </data>
+  <data name="error_pleasechoosefilefirst" xml:space="preserve">
+    <value>कृपया एक फ़ाइल का चयन करें</value>
+  </data>
 </root>

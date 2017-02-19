@@ -22,6 +22,22 @@
           <source>开始</source>
           <target state="needs-review-translation" state-qualifier="exact-match">Start</target>
         </trans-unit>
+        <trans-unit id="error" translate="yes" xml:space="preserve">
+          <source>出错</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ett fel uppstod</target>
+        </trans-unit>
+        <trans-unit id="error_notsupport" translate="yes" xml:space="preserve">
+          <source>不支持解析与您当前设备显示语言相同的书籍，请在下方选择框内手动选择语言</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Stöder inte parsning och visning av din nuvarande utrustning i samma böcker, Välj rutan nedan för att manuellt välja språk</target>
+        </trans-unit>
+        <trans-unit id="error_pdfwithpassword" translate="yes" xml:space="preserve">
+          <source>无法读取带密码的PDF文件</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Det gick inte att läsa PDF-filer med ett lösenord</target>
+        </trans-unit>
+        <trans-unit id="error_pleasechoosefilefirst" translate="yes" xml:space="preserve">
+          <source>请先选择文件</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Välj en fil</target>
+        </trans-unit>
       </group>
     </body>
   </file>

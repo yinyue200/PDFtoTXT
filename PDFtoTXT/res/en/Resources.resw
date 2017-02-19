@@ -24,4 +24,16 @@
   <data name="start.Content" xml:space="preserve">
     <value>Start</value>
   </data>
+  <data name="error" xml:space="preserve">
+    <value>Fault</value>
+  </data>
+  <data name="error_notsupport" xml:space="preserve">
+    <value>Does not support parsing and display of your current equipment the same language books, please select box below to manually select the language</value>
+  </data>
+  <data name="error_pdfwithpassword" xml:space="preserve">
+    <value>Unable to read PDF files with a password</value>
+  </data>
+  <data name="error_pleasechoosefilefirst" xml:space="preserve">
+    <value>Please select a file</value>
+  </data>
 </root>

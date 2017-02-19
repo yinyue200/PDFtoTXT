@@ -13,5 +13,12 @@
         <Button x:Uid="choosesaveloc" x:Name="ct" Margin="5" Click="Button_Click_1">选择保存位置</Button>
         <Button x:Uid="start" x:Name="start" Margin="5" Click="Button_Click_2">开始</Button>
         <HyperlinkButton x:Uid="about" NavigateUri="https://github.com/yinyue200/PDFtoTXT" Margin="5" Content="关于"/>
+        <ComboBox SelectionChanged="lans_SelectionChanged" x:Name="lans" Header="OCR Language">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding NativeName}"></TextBlock>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
     </StackPanel>
 </Page>

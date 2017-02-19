@@ -24,4 +24,16 @@
   <data name="start.Content" xml:space="preserve">
     <value>Bắt đầu</value>
   </data>
+  <data name="error" xml:space="preserve">
+    <value>Đang có Lỗi</value>
+  </data>
+  <data name="error_notsupport" xml:space="preserve">
+    <value>Không hỗ trợ phân tích và hiển thị các thiết bị của bạn hiện tại cùng một ngôn ngữ sách, hãy chọn hộp bên dưới để chọn ngôn ngữ</value>
+  </data>
+  <data name="error_pdfwithpassword" xml:space="preserve">
+    <value>Không thể đọc tập tin PDF với mật khẩu</value>
+  </data>
+  <data name="error_pleasechoosefilefirst" xml:space="preserve">
+    <value>Vui lòng chọn một tập tin</value>
+  </data>
 </root>

@@ -22,6 +22,22 @@
           <source>开始</source>
           <target state="needs-review-translation" state-qualifier="exact-match">시작</target>
         </trans-unit>
+        <trans-unit id="error" translate="yes" xml:space="preserve">
+          <source>出错</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">오류가 발생 했습니다.</target>
+        </trans-unit>
+        <trans-unit id="error_notsupport" translate="yes" xml:space="preserve">
+          <source>不支持解析与您当前设备显示语言相同的书籍，请在下方选择框内手动选择语言</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">구문 분석 및 현재 장비의 디스플레이 지원 하지 않습니다 같은 언어 책, 언어를 수동으로 선택 하려면 아래 상자를 선택 하십시오</target>
+        </trans-unit>
+        <trans-unit id="error_pdfwithpassword" translate="yes" xml:space="preserve">
+          <source>无法读取带密码的PDF文件</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">암호 PDF 파일을 읽을 수 없습니다</target>
+        </trans-unit>
+        <trans-unit id="error_pleasechoosefilefirst" translate="yes" xml:space="preserve">
+          <source>请先选择文件</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">파일을 선택 하십시오</target>
+        </trans-unit>
       </group>
     </body>
   </file>

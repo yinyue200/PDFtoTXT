@@ -24,4 +24,16 @@
   <data name="start.Content" xml:space="preserve">
     <value>écran de démarrage</value>
   </data>
+  <data name="error" xml:space="preserve">
+    <value>Il y a une erreur</value>
+  </data>
+  <data name="error_notsupport" xml:space="preserve">
+    <value>Ne supporte pas l’analyse et l’affichage de votre équipement actuel les mêmes livres de langue, s’il vous plaît sélectionnez case ci-dessous pour sélectionner manuellement la langue</value>
+  </data>
+  <data name="error_pdfwithpassword" xml:space="preserve">
+    <value>Impossible de lire les fichiers PDF avec un mot de passe</value>
+  </data>
+  <data name="error_pleasechoosefilefirst" xml:space="preserve">
+    <value>Veuillez sélectionner un fichier</value>
+  </data>
 </root>

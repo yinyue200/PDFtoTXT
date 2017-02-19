@@ -24,4 +24,16 @@
   <data name="start.Content" xml:space="preserve">
     <value>Start</value>
   </data>
+  <data name="error" xml:space="preserve">
+    <value>Feil</value>
+  </data>
+  <data name="error_notsupport" xml:space="preserve">
+    <value>Støtter ikke analyse og visning av gjeldende utstyret de samme språk bøkene, velg boksen nedenfor å manuelt velge språk</value>
+  </data>
+  <data name="error_pdfwithpassword" xml:space="preserve">
+    <value>Kan ikke lese PDF-filer med passord</value>
+  </data>
+  <data name="error_pleasechoosefilefirst" xml:space="preserve">
+    <value>Velg en fil</value>
+  </data>
 </root>

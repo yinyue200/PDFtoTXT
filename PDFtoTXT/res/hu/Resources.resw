@@ -24,4 +24,16 @@
   <data name="start.Content" xml:space="preserve">
     <value>kezdőképernyő</value>
   </data>
+  <data name="error" xml:space="preserve">
+    <value>Hiba történt a</value>
+  </data>
+  <data name="error_notsupport" xml:space="preserve">
+    <value>Nem támogatja a nyelvtani elemzés és a kijelzőn a jelenlegi berendezés az azonos nyelvű könyvek, kérjük, válassza ki alább, hogy manuálisan válassza ki a nyelvet</value>
+  </data>
+  <data name="error_pdfwithpassword" xml:space="preserve">
+    <value>Nem lehet olvasni a PDF fájlokat-val jelszó</value>
+  </data>
+  <data name="error_pleasechoosefilefirst" xml:space="preserve">
+    <value>Jelöljön ki egy fájlt</value>
+  </data>
 </root>

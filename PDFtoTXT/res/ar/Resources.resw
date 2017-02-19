@@ -24,4 +24,16 @@
   <data name="start.Content" xml:space="preserve">
     <value>البدء</value>
   </data>
+  <data name="error" xml:space="preserve">
+    <value>سلبيات</value>
+  </data>
+  <data name="error_notsupport" xml:space="preserve">
+    <value>لا يدعم عرض المعدات الحالية الخاصة بك وتحليل كتب اللغة نفسها، الرجاء تحديد المربع أدناه لتحديد اللغة يدوياً</value>
+  </data>
+  <data name="error_pdfwithpassword" xml:space="preserve">
+    <value>غير قادر على قراءة ملفات PDF باستخدام كلمة مرور</value>
+  </data>
+  <data name="error_pleasechoosefilefirst" xml:space="preserve">
+    <value>الرجاء تحديد ملف</value>
+  </data>
 </root>

@@ -24,4 +24,16 @@
   <data name="start.Content" xml:space="preserve">
     <value>התחל</value>
   </data>
+  <data name="error" xml:space="preserve">
+    <value>תקלה</value>
+  </data>
+  <data name="error_notsupport" xml:space="preserve">
+    <value>לא תומך ניתוח והצגה של הציוד הנוכחי שלך הספרים באותה שפה, בחר בתיבה שלהלן כדי לבחור באופן ידני את השפה</value>
+  </data>
+  <data name="error_pdfwithpassword" xml:space="preserve">
+    <value>אין אפשרות לקרוא קבצי PDF עם סיסמה</value>
+  </data>
+  <data name="error_pleasechoosefilefirst" xml:space="preserve">
+    <value>נא בחר קובץ</value>
+  </data>
 </root>

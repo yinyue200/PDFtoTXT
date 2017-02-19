@@ -24,4 +24,16 @@
   <data name="start.Content" xml:space="preserve">
     <value>Start</value>
   </data>
+  <data name="error" xml:space="preserve">
+    <value>C'era un errore</value>
+  </data>
+  <data name="error_notsupport" xml:space="preserve">
+    <value>Non supporta l'analisi e la visualizzazione della vostra apparecchiatura corrente gli stessi libri di lingua, seleziona la casella sottostante per selezionare manualmente la lingua</value>
+  </data>
+  <data name="error_pdfwithpassword" xml:space="preserve">
+    <value>Impossibile leggere i file PDF con una password</value>
+  </data>
+  <data name="error_pleasechoosefilefirst" xml:space="preserve">
+    <value>Si prega di selezionare un file</value>
+  </data>
 </root>

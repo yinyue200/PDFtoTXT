@@ -24,4 +24,16 @@
   <data name="start.Content" xml:space="preserve">
     <value>ekran startowy</value>
   </data>
+  <data name="error" xml:space="preserve">
+    <value>Wystąpił błąd</value>
+  </data>
+  <data name="error_notsupport" xml:space="preserve">
+    <value>Obsługuje analizowanie i wyświetlanie bieżącego sprzęt tej samej książki w języku, proszę wybrać poniższe pole, aby ręcznie wybrać język</value>
+  </data>
+  <data name="error_pdfwithpassword" xml:space="preserve">
+    <value>Nie można odczytać plików PDF hasłem</value>
+  </data>
+  <data name="error_pleasechoosefilefirst" xml:space="preserve">
+    <value>Wybierz plik</value>
+  </data>
 </root>

@@ -24,4 +24,16 @@
   <data name="start.Content" xml:space="preserve">
     <value>Inici</value>
   </data>
+  <data name="error" xml:space="preserve">
+    <value>S'ha produït un error</value>
+  </data>
+  <data name="error_notsupport" xml:space="preserve">
+    <value>No dóna suport a anàlisi i exhibició del seu actual equip els llibres de llengua mateixa, si us plau, activeu la casella de sota per seleccionar manualment la llengua</value>
+  </data>
+  <data name="error_pdfwithpassword" xml:space="preserve">
+    <value>No es pot llegir fitxers PDF amb una contrasenya</value>
+  </data>
+  <data name="error_pleasechoosefilefirst" xml:space="preserve">
+    <value>Seleccioneu un fitxer</value>
+  </data>
 </root>

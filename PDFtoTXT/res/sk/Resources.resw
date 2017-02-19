@@ -24,4 +24,16 @@
   <data name="start.Content" xml:space="preserve">
     <value>domovská obrazovka</value>
   </data>
+  <data name="error" xml:space="preserve">
+    <value>Porucha</value>
+  </data>
+  <data name="error_notsupport" xml:space="preserve">
+    <value>Nepodporuje syntaktickú analýzu a zobrazenie vašej momentálnej výzbroje rovnaký jazyk knihy, prosím začiarknite políčko nižšie a manuálne vybrať jazyk</value>
+  </data>
+  <data name="error_pdfwithpassword" xml:space="preserve">
+    <value>Nedá sa čítať PDF súbory s heslom</value>
+  </data>
+  <data name="error_pleasechoosefilefirst" xml:space="preserve">
+    <value>Vyberte súbor</value>
+  </data>
 </root>

@@ -24,4 +24,16 @@
   <data name="start.Content" xml:space="preserve">
     <value>Start</value>
   </data>
+  <data name="error" xml:space="preserve">
+    <value>Tõrge</value>
+  </data>
+  <data name="error_notsupport" xml:space="preserve">
+    <value>Toetab sõelumine ja Kuva praeguse seadme sama keele raamatud, valige kasti käsitsi valimine</value>
+  </data>
+  <data name="error_pdfwithpassword" xml:space="preserve">
+    <value>Ei saa lugeda PDF-faile parooliga</value>
+  </data>
+  <data name="error_pleasechoosefilefirst" xml:space="preserve">
+    <value>Valige fail</value>
+  </data>
 </root>

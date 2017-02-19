@@ -24,4 +24,16 @@
   <data name="start.Content" xml:space="preserve">
     <value>Mula</value>
   </data>
+  <data name="error" xml:space="preserve">
+    <value>Jadilah satu ralat</value>
+  </data>
+  <data name="error_notsupport" xml:space="preserve">
+    <value>Tidak menyokong penghuraian dan mempamerkan peralatan semasa anda buku bahasa yang sama, sila pilih kotak di bawah ini untuk memilih bahasa secara manual</value>
+  </data>
+  <data name="error_pdfwithpassword" xml:space="preserve">
+    <value>Tidak dapat membaca fail PDF dengan kata laluan</value>
+  </data>
+  <data name="error_pleasechoosefilefirst" xml:space="preserve">
+    <value>Sila pilih fail</value>
+  </data>
 </root>

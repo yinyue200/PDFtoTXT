@@ -24,4 +24,16 @@
   <data name="start.Content" xml:space="preserve">
     <value>시작</value>
   </data>
+  <data name="error" xml:space="preserve">
+    <value>오류가 발생 했습니다.</value>
+  </data>
+  <data name="error_notsupport" xml:space="preserve">
+    <value>구문 분석 및 현재 장비의 디스플레이 지원 하지 않습니다 같은 언어 책, 언어를 수동으로 선택 하려면 아래 상자를 선택 하십시오</value>
+  </data>
+  <data name="error_pdfwithpassword" xml:space="preserve">
+    <value>암호 PDF 파일을 읽을 수 없습니다</value>
+  </data>
+  <data name="error_pleasechoosefilefirst" xml:space="preserve">
+    <value>파일을 선택 하십시오</value>
+  </data>
 </root>

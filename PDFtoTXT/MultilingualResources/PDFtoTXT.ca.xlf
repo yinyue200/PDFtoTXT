@@ -22,6 +22,22 @@
           <source>开始</source>
           <target state="needs-review-translation" state-qualifier="exact-match">Inici</target>
         </trans-unit>
+        <trans-unit id="error" translate="yes" xml:space="preserve">
+          <source>出错</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">S'ha produït un error</target>
+        </trans-unit>
+        <trans-unit id="error_notsupport" translate="yes" xml:space="preserve">
+          <source>不支持解析与您当前设备显示语言相同的书籍，请在下方选择框内手动选择语言</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">No dóna suport a anàlisi i exhibició del seu actual equip els llibres de llengua mateixa, si us plau, activeu la casella de sota per seleccionar manualment la llengua</target>
+        </trans-unit>
+        <trans-unit id="error_pdfwithpassword" translate="yes" xml:space="preserve">
+          <source>无法读取带密码的PDF文件</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">No es pot llegir fitxers PDF amb una contrasenya</target>
+        </trans-unit>
+        <trans-unit id="error_pleasechoosefilefirst" translate="yes" xml:space="preserve">
+          <source>请先选择文件</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Seleccioneu un fitxer</target>
+        </trans-unit>
       </group>
     </body>
   </file>

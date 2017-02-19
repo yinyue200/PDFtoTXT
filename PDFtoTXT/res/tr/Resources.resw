@@ -24,4 +24,16 @@
   <data name="start.Content" xml:space="preserve">
     <value>Başlangıç</value>
   </data>
+  <data name="error" xml:space="preserve">
+    <value>Hata</value>
+  </data>
+  <data name="error_notsupport" xml:space="preserve">
+    <value>Ayrıştırma ve görüntüsünü geçerli donanımınızı desteklemiyor aynı dil kitapları, lütfen el ile dili seçmek için aşağıdaki kutuyu seçin</value>
+  </data>
+  <data name="error_pdfwithpassword" xml:space="preserve">
+    <value>PDF dosyaları parolayla okunamıyor</value>
+  </data>
+  <data name="error_pleasechoosefilefirst" xml:space="preserve">
+    <value>Lütfen bir dosya seçin</value>
+  </data>
 </root>

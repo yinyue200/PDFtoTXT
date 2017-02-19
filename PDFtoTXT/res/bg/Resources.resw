@@ -24,4 +24,16 @@
   <data name="start.Content" xml:space="preserve">
     <value>Старт</value>
   </data>
+  <data name="error" xml:space="preserve">
+    <value>Действие</value>
+  </data>
+  <data name="error_notsupport" xml:space="preserve">
+    <value>Не поддържа разбор и показване на вашите текущи оборудване на същия език книги, моля изберете полето по-долу, за да изберете ръчно езика</value>
+  </data>
+  <data name="error_pdfwithpassword" xml:space="preserve">
+    <value>Не може да чете PDF файлове с парола</value>
+  </data>
+  <data name="error_pleasechoosefilefirst" xml:space="preserve">
+    <value>Моля изберете файл</value>
+  </data>
 </root>

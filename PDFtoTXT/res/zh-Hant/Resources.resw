@@ -24,4 +24,16 @@
   <data name="start.Content" xml:space="preserve">
     <value>開始畫面</value>
   </data>
+  <data name="error" xml:space="preserve">
+    <value>出錯</value>
+  </data>
+  <data name="error_notsupport" xml:space="preserve">
+    <value>不支援解析與您當前設備顯示語言相同的書籍，請在下方選擇框內手動選擇語言</value>
+  </data>
+  <data name="error_pdfwithpassword" xml:space="preserve">
+    <value>無法讀取帶密碼的PDF檔</value>
+  </data>
+  <data name="error_pleasechoosefilefirst" xml:space="preserve">
+    <value>請先選擇檔</value>
+  </data>
 </root>

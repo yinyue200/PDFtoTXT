@@ -24,4 +24,16 @@
   <data name="start.Content" xml:space="preserve">
     <value>početni ekran</value>
   </data>
+  <data name="error" xml:space="preserve">
+    <value>Kvar</value>
+  </data>
+  <data name="error_notsupport" xml:space="preserve">
+    <value>Ne podržava raščlanjivanje i prikaz trenutnog opremu iste knjige jezik, izaberite okvir ispod ručno biranje jezika</value>
+  </data>
+  <data name="error_pdfwithpassword" xml:space="preserve">
+    <value>Nije moguće pročitati PDF datoteka pomoću lozinke</value>
+  </data>
+  <data name="error_pleasechoosefilefirst" xml:space="preserve">
+    <value>Izaberite datoteku</value>
+  </data>
 </root>

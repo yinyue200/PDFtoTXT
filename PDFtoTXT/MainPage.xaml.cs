@@ -5,6 +5,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.Globalization;
 using Windows.Media.Ocr;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
@@ -25,9 +26,13 @@ namespace PDFtoTXT
     {
         Windows.Storage.IStorageFile pdffile;
         Windows.Storage.IStorageFile txtfile;
+        Windows.ApplicationModel.Resources.ResourceLoader loader = Windows.ApplicationModel.Resources.ResourceLoader.GetForCurrentView();
+        Language lang;
         public MainPage()
         {
             this.InitializeComponent();
+            lans.ItemsSource = OcrEngine.AvailableRecognizerLanguages;
+            lans.SelectedValue = "Auto";
         }
 
         private async void Button_Click(object sender, RoutedEventArgs e)
@@ -48,7 +53,7 @@ namespace PDFtoTXT
         {
             if(txtfile==null||pdffile==null)
             {
-                await new Windows.UI.Popups.MessageDialog("请先选择文件").ShowAsync();
+                await new Windows.UI.Popups.MessageDialog(loader.GetString("error_pleasechoosefilefirst")).ShowAsync();
                 return;
             }
             ct.IsEnabled = false;
@@ -59,12 +64,17 @@ namespace PDFtoTXT
                 Windows.Data.Pdf.PdfDocument pd = await Windows.Data.Pdf.PdfDocument.LoadFromFileAsync(pdffile);
                 if (pd.IsPasswordProtected)
                 {
-                    await new Windows.UI.Popups.MessageDialog("无法读取带密码的PDF文件").ShowAsync();
+                    await new Windows.UI.Popups.MessageDialog(loader.GetString("error_pdfwithpassword")).ShowAsync();
                     return;
                 }
                 pro.Value = 0;
                 pro.Maximum = pd.PageCount;
-                var ocre = OcrEngine.TryCreateFromUserProfileLanguages();
+                var ocre = lang == null ? OcrEngine.TryCreateFromUserProfileLanguages() : OcrEngine.TryCreateFromLanguage(lang);
+                if(ocre==null&&lang==null)
+                {
+                    await new Windows.UI.Popups.MessageDialog(loader.GetString("error_notsupport")).ShowAsync();
+                    return;
+                }               
                 using (Stream txtstr = await txtfile.OpenStreamForWriteAsync())
                 {
                     using (StreamWriter sw = new StreamWriter(txtstr))
@@ -90,7 +100,7 @@ namespace PDFtoTXT
             }
             catch
             {
-                await new Windows.UI.Popups.MessageDialog("出错").ShowAsync();
+                await new Windows.UI.Popups.MessageDialog(loader.GetString("error")).ShowAsync();
             }
             finally
             {
@@ -100,6 +110,11 @@ namespace PDFtoTXT
                 txtfile = null;
                 pdffile = null;
             }
+        }
+
+        private void lans_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            lang = lans.SelectedValue as Language;
         }
     }
 }

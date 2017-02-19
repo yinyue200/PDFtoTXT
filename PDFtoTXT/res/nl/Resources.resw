@@ -24,4 +24,16 @@
   <data name="start.Content" xml:space="preserve">
     <value>Start</value>
   </data>
+  <data name="error" xml:space="preserve">
+    <value>Er is een fout opgetreden</value>
+  </data>
+  <data name="error_notsupport" xml:space="preserve">
+    <value>Biedt geen ondersteuning voor parseren en weergave van uw huidige apparatuur de dezelfde taal boeken, Schakel onderstaand handmatig de taal te selecteren in</value>
+  </data>
+  <data name="error_pdfwithpassword" xml:space="preserve">
+    <value>Kan niet lezen van PDF-bestanden met een wachtwoord</value>
+  </data>
+  <data name="error_pleasechoosefilefirst" xml:space="preserve">
+    <value>Selecteer een bestand</value>
+  </data>
 </root>

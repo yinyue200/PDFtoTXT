@@ -24,4 +24,16 @@
   <data name="start.Content" xml:space="preserve">
     <value>úvodní obrazovka</value>
   </data>
+  <data name="error" xml:space="preserve">
+    <value>Došlo k chybě</value>
+  </data>
+  <data name="error_notsupport" xml:space="preserve">
+    <value>Podporuje analýzu a zobrazení aktuální zařízení stejné jazykové knihy, vyberte pole níže ručně vybrat jazyk</value>
+  </data>
+  <data name="error_pdfwithpassword" xml:space="preserve">
+    <value>Nelze číst soubory PDF s heslem</value>
+  </data>
+  <data name="error_pleasechoosefilefirst" xml:space="preserve">
+    <value>Vyberte soubor.</value>
+  </data>
 </root>

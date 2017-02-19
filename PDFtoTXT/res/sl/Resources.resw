@@ -24,4 +24,16 @@
   <data name="start.Content" xml:space="preserve">
     <value>začetni zaslon</value>
   </data>
+  <data name="error" xml:space="preserve">
+    <value>Napaka</value>
+  </data>
+  <data name="error_notsupport" xml:space="preserve">
+    <value>Podpira razčleniti ter izložba vaš trenutni opreme iste knjige jezik, izberite polje spodaj, da ročno izberete jezik</value>
+  </data>
+  <data name="error_pdfwithpassword" xml:space="preserve">
+    <value>Nezmožen čitati PDF datoteke z geslom</value>
+  </data>
+  <data name="error_pleasechoosefilefirst" xml:space="preserve">
+    <value>Izberite datoteko</value>
+  </data>
 </root>

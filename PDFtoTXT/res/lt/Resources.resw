@@ -24,4 +24,16 @@
   <data name="start.Content" xml:space="preserve">
     <value>Pradžia</value>
   </data>
+  <data name="error" xml:space="preserve">
+    <value>Pažeidimas</value>
+  </data>
+  <data name="error_notsupport" xml:space="preserve">
+    <value>Apdorojant ir rodymo įranga nepalaiko pačios kalbos knygos, prašome pažymėkite langelį žemiau rankiniu būdu pasirinkti kalbą</value>
+  </data>
+  <data name="error_pdfwithpassword" xml:space="preserve">
+    <value>Neįmanoma perskaityti PDF failus slaptažodžiu</value>
+  </data>
+  <data name="error_pleasechoosefilefirst" xml:space="preserve">
+    <value>Pasirinkite failą</value>
+  </data>
 </root>

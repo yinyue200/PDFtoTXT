@@ -24,4 +24,16 @@
   <data name="start.Content" xml:space="preserve">
     <value>スタート</value>
   </data>
+  <data name="error" xml:space="preserve">
+    <value>エラーが発生しました</value>
+  </data>
+  <data name="error_notsupport" xml:space="preserve">
+    <value>解析および、現在の機器の表示はサポートされません同じ言語の書籍は、言語を手動で選択して下のボックスを選択してください</value>
+  </data>
+  <data name="error_pdfwithpassword" xml:space="preserve">
+    <value>パスワードで PDF ファイルを読み取ることができません。</value>
+  </data>
+  <data name="error_pleasechoosefilefirst" xml:space="preserve">
+    <value>ファイルを選択してください。</value>
+  </data>
 </root>
