@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="zh-CN" target-language="tr" original="PDFTOTXT/RES/ZH-CN/RESOURCES.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.1795.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="PDFTOTXT/RES/ZH-CN/RESOURCES.RESW" datatype="resx">
+        <trans-unit id="about.Content" translate="yes" xml:space="preserve">
+          <source>关于</source>
+          <target state="needs-review-translation" state-qualifier="exact-match">Hakkında</target>
+        </trans-unit>
+        <trans-unit id="choosesaveloc.Content" translate="yes" xml:space="preserve">
+          <source>选择保存位置</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Bir kayıt seçin konumu</target>
+        </trans-unit>
+        <trans-unit id="openfile.Content" translate="yes" xml:space="preserve">
+          <source>打开文件</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Açık Dosyalar</target>
+        </trans-unit>
+        <trans-unit id="start.Content" translate="yes" xml:space="preserve">
+          <source>开始</source>
+          <target state="needs-review-translation" state-qualifier="exact-match">Başlangıç</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

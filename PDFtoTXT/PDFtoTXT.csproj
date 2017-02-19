@@ -88,9 +88,57 @@
     <Prefer32Bit>true</Prefer32Bit>
     <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
   </PropertyGroup>
+  <PropertyGroup Label="MultilingualAppToolkit">
+    <MultilingualAppToolkitVersion>4.0</MultilingualAppToolkitVersion>
+    <MultilingualFallbackLanguage>zh-CN</MultilingualFallbackLanguage>
+    <TranslationReport Condition="'$(Configuration)' == 'Release'">true</TranslationReport>
+    <SuppressPseudoWarning Condition="'$(Configuration)' == 'Debug'">true</SuppressPseudoWarning>
+  </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
     <None Include="project.json" />
+    <PRIResource Include="res\zh-Hant\Resources.resw" />
+    <PRIResource Include="res\vi\Resources.resw" />
+    <PRIResource Include="res\en\Resources.resw" />
+    <PRIResource Include="res\hi\Resources.resw" />
+    <PRIResource Include="res\it\Resources.resw" />
+    <PRIResource Include="res\hu\Resources.resw" />
+    <PRIResource Include="res\el\Resources.resw" />
+    <PRIResource Include="res\he\Resources.resw" />
+    <PRIResource Include="res\es\Resources.resw" />
+    <PRIResource Include="res\uk\Resources.resw" />
+    <PRIResource Include="res\cy\Resources.resw" />
+    <PRIResource Include="res\tr\Resources.resw" />
+    <PRIResource Include="res\th\Resources.resw" />
+    <PRIResource Include="res\sl\Resources.resw" />
+    <PRIResource Include="res\sk\Resources.resw" />
+    <PRIResource Include="res\sr-Cyrl\Resources.resw" />
+    <PRIResource Include="res\sr-Latn\Resources.resw" />
+    <PRIResource Include="res\sv\Resources.resw" />
+    <PRIResource Include="res\ja\Resources.resw" />
+    <PRIResource Include="res\pt\Resources.resw" />
+    <PRIResource Include="res\nb\Resources.resw" />
+    <PRIResource Include="res\ms\Resources.resw" />
+    <PRIResource Include="res\ro\Resources.resw" />
+    <PRIResource Include="res\lt\Resources.resw" />
+    <PRIResource Include="res\lv\Resources.resw" />
+    <PRIResource Include="res\hr\Resources.resw" />
+    <PRIResource Include="res\cs\Resources.resw" />
+    <PRIResource Include="res\ca\Resources.resw" />
+    <PRIResource Include="res\nl\Resources.resw" />
+    <PRIResource Include="res\fi\Resources.resw" />
+    <PRIResource Include="res\fr\Resources.resw" />
+    <PRIResource Include="res\ru\Resources.resw" />
+    <PRIResource Include="res\de\Resources.resw" />
+    <PRIResource Include="res\da\Resources.resw" />
+    <PRIResource Include="res\ko\Resources.resw" />
+    <PRIResource Include="res\fa\Resources.resw" />
+    <PRIResource Include="res\bs-Latn\Resources.resw" />
+    <PRIResource Include="res\pl\Resources.resw" />
+    <PRIResource Include="res\bg\Resources.resw" />
+    <PRIResource Include="res\et\Resources.resw" />
+    <PRIResource Include="res\ar\Resources.resw" />
+    <PRIResource Include="res\zh-CN\Resources.resw" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -162,10 +210,57 @@
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
+  <ItemGroup>
+    <XliffResource Include="MultilingualResources\PDFtoTXT.ar.xlf" />
+    <XliffResource Include="MultilingualResources\PDFtoTXT.bg.xlf" />
+    <XliffResource Include="MultilingualResources\PDFtoTXT.bs-Latn.xlf" />
+    <XliffResource Include="MultilingualResources\PDFtoTXT.ca.xlf" />
+    <XliffResource Include="MultilingualResources\PDFtoTXT.cs.xlf" />
+    <XliffResource Include="MultilingualResources\PDFtoTXT.cy.xlf" />
+    <XliffResource Include="MultilingualResources\PDFtoTXT.da.xlf" />
+    <XliffResource Include="MultilingualResources\PDFtoTXT.de.xlf" />
+    <XliffResource Include="MultilingualResources\PDFtoTXT.el.xlf" />
+    <XliffResource Include="MultilingualResources\PDFtoTXT.en.xlf" />
+    <XliffResource Include="MultilingualResources\PDFtoTXT.es.xlf" />
+    <XliffResource Include="MultilingualResources\PDFtoTXT.et.xlf" />
+    <XliffResource Include="MultilingualResources\PDFtoTXT.fa.xlf" />
+    <XliffResource Include="MultilingualResources\PDFtoTXT.fi.xlf" />
+    <XliffResource Include="MultilingualResources\PDFtoTXT.fr.xlf" />
+    <XliffResource Include="MultilingualResources\PDFtoTXT.he.xlf" />
+    <XliffResource Include="MultilingualResources\PDFtoTXT.hi.xlf" />
+    <XliffResource Include="MultilingualResources\PDFtoTXT.hr.xlf" />
+    <XliffResource Include="MultilingualResources\PDFtoTXT.hu.xlf" />
+    <XliffResource Include="MultilingualResources\PDFtoTXT.it.xlf" />
+    <XliffResource Include="MultilingualResources\PDFtoTXT.ja.xlf" />
+    <XliffResource Include="MultilingualResources\PDFtoTXT.ko.xlf" />
+    <XliffResource Include="MultilingualResources\PDFtoTXT.lt.xlf" />
+    <XliffResource Include="MultilingualResources\PDFtoTXT.lv.xlf" />
+    <XliffResource Include="MultilingualResources\PDFtoTXT.ms.xlf" />
+    <XliffResource Include="MultilingualResources\PDFtoTXT.nb.xlf" />
+    <XliffResource Include="MultilingualResources\PDFtoTXT.nl.xlf" />
+    <XliffResource Include="MultilingualResources\PDFtoTXT.pl.xlf" />
+    <XliffResource Include="MultilingualResources\PDFtoTXT.pt.xlf" />
+    <XliffResource Include="MultilingualResources\PDFtoTXT.ro.xlf" />
+    <XliffResource Include="MultilingualResources\PDFtoTXT.ru.xlf" />
+    <XliffResource Include="MultilingualResources\PDFtoTXT.sk.xlf" />
+    <XliffResource Include="MultilingualResources\PDFtoTXT.sl.xlf" />
+    <XliffResource Include="MultilingualResources\PDFtoTXT.sr-Cyrl.xlf" />
+    <XliffResource Include="MultilingualResources\PDFtoTXT.sr-Latn.xlf" />
+    <XliffResource Include="MultilingualResources\PDFtoTXT.sv.xlf" />
+    <XliffResource Include="MultilingualResources\PDFtoTXT.th.xlf" />
+    <XliffResource Include="MultilingualResources\PDFtoTXT.tr.xlf" />
+    <XliffResource Include="MultilingualResources\PDFtoTXT.uk.xlf" />
+    <XliffResource Include="MultilingualResources\PDFtoTXT.vi.xlf" />
+    <XliffResource Include="MultilingualResources\PDFtoTXT.zh-Hant.xlf" />
+  </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.PriResources.targets" Label="MultilingualAppToolkit" Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\v$(MultilingualAppToolkitVersion)\Microsoft.Multilingual.PriResources.targets')" />
+  <Target Name="MATPrerequisite" BeforeTargets="PrepareForBuild" Condition="!Exists('$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.PriResources.targets')" Label="MultilingualAppToolkit">
+    <Warning Text="$(MSBuildProjectFile) is Multilingual build enabled, but the Multilingual App Toolkit is unavailable during the build. If building with Visual Studio, please check to ensure that toolkit is properly installed." />
+  </Target>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

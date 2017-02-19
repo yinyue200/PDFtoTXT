@@ -8,9 +8,10 @@
     mc:Ignorable="d">
 
     <StackPanel Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Button x:Name="cp" Click="Button_Click">打开文件</Button>
-        <ProgressBar x:Name="pro"/>
-        <Button x:Name="ct" Click="Button_Click_1">选择保存位置</Button>
-        <Button x:Name="start" Click="Button_Click_2">开始</Button>
+        <Button x:Uid="openfile" Margin="5" x:Name="cp" Click="Button_Click">打开文件</Button>
+        <ProgressBar x:Name="pro" Margin="0,5"/>
+        <Button x:Uid="choosesaveloc" x:Name="ct" Margin="5" Click="Button_Click_1">选择保存位置</Button>
+        <Button x:Uid="start" x:Name="start" Margin="5" Click="Button_Click_2">开始</Button>
+        <HyperlinkButton x:Uid="about" NavigateUri="https://github.com/yinyue200/PDFtoTXT" Margin="5" Content="关于"/>
     </StackPanel>
 </Page>
