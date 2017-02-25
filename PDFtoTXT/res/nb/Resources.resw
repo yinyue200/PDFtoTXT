@@ -36,4 +36,10 @@
   <data name="error_pleasechoosefilefirst" xml:space="preserve">
     <value>Velg en fil</value>
   </data>
+  <data name="guide.Text" xml:space="preserve">
+    <value>Hvordan:
+1. Klikk på "åpne fil" Velg PDF fil å konvertere TXT 
+2. Klikk på det "velge et sted" Velg TXT lagringssted etter en vellykket konvertering 
+3. Klikk på "start" start konvertere PDF til TXT</value>
+  </data>
 </root>

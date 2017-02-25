@@ -36,4 +36,10 @@
   <data name="error_pleasechoosefilefirst" xml:space="preserve">
     <value>Wybierz plik</value>
   </data>
+  <data name="guide.Text" xml:space="preserve">
+    <value>Jak:
+1. kliknij "Otwórz plik" Wybierz plik PDF, konwertować TXT 
+2. Kliknij na "Wybierz Zapisz lokalizację" Wybierz TXT Zapisz lokalizację po udanej konwersji 
+3. Kliknij na "start" start Konwersja plików PDF na TXT</value>
+  </data>
 </root>

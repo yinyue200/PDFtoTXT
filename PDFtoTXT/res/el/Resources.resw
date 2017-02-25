@@ -36,4 +36,10 @@
   <data name="error_pleasechoosefilefirst" xml:space="preserve">
     <value>Επιλέξτε ένα αρχείο</value>
   </data>
+  <data name="guide.Text" xml:space="preserve">
+    <value>Πώς να:
+1. Κάντε κλικ στο κουμπί «Άνοιγμα αρχείου» επιλέξτε το αρχείο PDF για να μετατρέψετε το TXT 
+2. Κάντε κλικ στο το «επιλέξτε Αποθήκευση τοποθεσίας» επιλέξτε TXT Αποθήκευση θέση μετά από μια επιτυχημένη μετατροπή 
+3. Κάντε κλικ στο «έναρξη» έναρξη μετατροπή PDF σε TXT</value>
+  </data>
 </root>

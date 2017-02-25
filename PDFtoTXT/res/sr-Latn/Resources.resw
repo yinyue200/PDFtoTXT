@@ -36,4 +36,10 @@
   <data name="error_pleasechoosefilefirst" xml:space="preserve">
     <value>Izaberite datoteku</value>
   </data>
+  <data name="guide.Text" xml:space="preserve">
+    <value>Kako da:
+1. kliknite na dugme "otvori datoteku" izaberite PDF datoteku da biste konvertovali TXT 
+2. kliknite na na "izaberite Sačuvaj lokaciju" izaberite TXT lokaciju za čuvanje nakon uspešne konverzija 
+3. kliknite na "start" start konvertovanje PDF u TXT</value>
+  </data>
 </root>

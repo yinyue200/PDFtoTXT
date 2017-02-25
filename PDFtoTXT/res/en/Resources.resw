@@ -36,4 +36,10 @@
   <data name="error_pleasechoosefilefirst" xml:space="preserve">
     <value>Please select a file</value>
   </data>
+  <data name="guide.Text" xml:space="preserve">
+    <value>How to:
+1. click the "open file" select the PDF file to convert TXT 
+2. click on the "select a save location" select TXT save location after a successful conversion 
+3. click on "start" start convert PDF to TXT</value>
+  </data>
 </root>

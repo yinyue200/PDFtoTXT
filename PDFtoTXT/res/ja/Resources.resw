@@ -36,4 +36,10 @@
   <data name="error_pleasechoosefilefirst" xml:space="preserve">
     <value>ファイルを選択してください。</value>
   </data>
+  <data name="guide.Text" xml:space="preserve">
+    <value>方法:
+1"ファイルを開く"は、 
+2 TXT に変換する PDF ファイルを選択をクリックします。 をクリック、「セーブセットを選択場所"変換
+3 が成功した後、保存場所 TXT を選択。 スタートの"スタート"をクリックして PDF を TXT に変換する。</value>
+  </data>
 </root>

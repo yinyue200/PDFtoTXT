@@ -36,4 +36,10 @@
   <data name="error_pleasechoosefilefirst" xml:space="preserve">
     <value>Seleccioneu un fitxer</value>
   </data>
+  <data name="guide.Text" xml:space="preserve">
+    <value>Com:
+1. Feu clic a l "arxiu obert" Selecciona el fitxer PDF per convertir TXT 
+2. Feu clic a la "Seleccioneu un guarda ubicació" Seleccioneu TXT salva localització després d'una conversió reeixida 
+3. Feu clic a "Inici" començament convertir PDF en TXT</value>
+  </data>
 </root>

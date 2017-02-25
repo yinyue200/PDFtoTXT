@@ -36,4 +36,10 @@
   <data name="error_pleasechoosefilefirst" xml:space="preserve">
     <value>Pasirinkite failą</value>
   </data>
+  <data name="guide.Text" xml:space="preserve">
+    <value>Kaip:
+1. Spauskite "open file" pasirinkite PDF failą konvertuoti TXT 
+2. Spauskite ant į "pasirinkite Išsaugoti vietos" Pasirinkite TXT įrašymo vietą po sėkminga konversija 
+3. Spauskite "pradėti" pradėti konvertuoti PDF į TXT</value>
+  </data>
 </root>

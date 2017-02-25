@@ -36,4 +36,10 @@
   <data name="error_pleasechoosefilefirst" xml:space="preserve">
     <value>Vă rugăm să selectaţi un fişier</value>
   </data>
+  <data name="guide.Text" xml:space="preserve">
+    <value>Cum să:
+1. faceţi clic pe "open file" selectaţi fişierul PDF pentru a converti TXT 
+2. faceţi clic pe "selectaţi salvaţi o locaţie" selectaţi TXT Salvaţi locaţie după o conversie de succes 
+3. faceţi clic pe "start" start Convertizor PDF la spre TXT</value>
+  </data>
 </root>

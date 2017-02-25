@@ -36,4 +36,10 @@
   <data name="error_pleasechoosefilefirst" xml:space="preserve">
     <value>Пожалуйста, выберите файл</value>
   </data>
+  <data name="guide.Text" xml:space="preserve">
+    <value>Как:
+1. Нажмите кнопку «открытие файла» выберите файл PDF с конвертировать TXT 
+2. Нажмите на «выберите сохранить расположение» выберите расположение для сохранения TXT после успешного преобразования 
+3. Нажмите на «старт» Начало конвертировать PDF TXT</value>
+  </data>
 </root>

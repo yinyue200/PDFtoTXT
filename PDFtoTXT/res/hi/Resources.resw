@@ -36,4 +36,10 @@
   <data name="error_pleasechoosefilefirst" xml:space="preserve">
     <value>कृपया एक फ़ाइल का चयन करें</value>
   </data>
+  <data name="guide.Text" xml:space="preserve">
+    <value>कैसे करने के लिए:
+1. TXT 
+2 में कनवर्ट करने के लिए PDF फ़ाइल "फ़ाइल खोलें" का चयन करें. पर क्लिक करें "एक सहेजें का चयन करें स्थान" TXT एक सफल रूपांतरण के बाद 
+3 स्थान सहेजें का चयन करें. प्रारंभ "प्रारंभ" पर क्लिक करें पीडीएफ कन्वर्ट करने के लिए TXT</value>
+  </data>
 </root>

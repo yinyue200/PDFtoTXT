@@ -36,4 +36,10 @@
   <data name="error_pleasechoosefilefirst" xml:space="preserve">
     <value>الرجاء تحديد ملف</value>
   </data>
+  <data name="guide.Text" xml:space="preserve">
+    <value>كيفية:
+1. انقر فوق "فتح ملف" حدد ملف PDF لتحويل TXT 
+2. انقر فوق "حدد حفظ الموقع" حدد النص موقع الحفظ بعد تحويل ناجح 
+3. انقر فوق "ابدأ" بدء تحويل PDF إلى TXT</value>
+  </data>
 </root>

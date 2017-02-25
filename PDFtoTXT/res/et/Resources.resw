@@ -36,4 +36,10 @@
   <data name="error_pleasechoosefilefirst" xml:space="preserve">
     <value>Valige fail</value>
   </data>
+  <data name="guide.Text" xml:space="preserve">
+    <value>Kuidas:
+1. "open file" Vali PDF faili teisendada TXT 
+2. kliki on "valige salvestatav asukoht" valige TXT asukohas pärast edukat teisendamist 
+3. Vajuta "start" start teisendada PDF, txt</value>
+  </data>
 </root>

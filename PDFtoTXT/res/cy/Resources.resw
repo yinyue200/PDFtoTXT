@@ -36,4 +36,10 @@
   <data name="error_pleasechoosefilefirst" xml:space="preserve">
     <value>Dewiswch ffeil</value>
   </data>
+  <data name="guide.Text" xml:space="preserve">
+    <value>Sut i:
+1. Cliciwch yr "agor ffeil", dewiswch y ffeil PDF i drosi TXT 
+2. Cliciwch ar y "Dewiswch arbed lleoliad" Dewiswch TXT lleoliad cadw ar ôl trosi llwyddiannus 
+3. Cliciwch ar "dechrau" dechrau troi'n PDF TXT</value>
+  </data>
 </root>

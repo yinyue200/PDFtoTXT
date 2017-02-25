@@ -36,4 +36,10 @@
   <data name="error_pleasechoosefilefirst" xml:space="preserve">
     <value>Lütfen bir dosya seçin</value>
   </data>
+  <data name="guide.Text" xml:space="preserve">
+    <value>Nasıl yapılır:
+1. TXT 
+2 dönüştürmek için PDF dosyası "Dosya Aç" Seç'i tıklatın. tıkırtı üstünde "bir kayıt seçin konumu" TXT başarılı bir dönüşüm 
+3 sonra konumu seçin. tıkırtı üstünde başlamak "Başlat" TXT PDF dönüştürme</value>
+  </data>
 </root>

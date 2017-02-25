@@ -36,4 +36,10 @@
   <data name="error_pleasechoosefilefirst" xml:space="preserve">
     <value>Jelöljön ki egy fájlt</value>
   </data>
+  <data name="guide.Text" xml:space="preserve">
+    <value>Hogyan:
+1. kattintson a "fájl megnyitása" válassza ki a PDF-fájlt, hogy megtérít TXT 
+2. kattintson a "válassza ki a mentés helyét" válassza a TXT lehetőséget mentési hely after sikeres megtérítés 
+3. kattintson a "start" kezdési Konvertálás PDF-ből TXT</value>
+  </data>
 </root>

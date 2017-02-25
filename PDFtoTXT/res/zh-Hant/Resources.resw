@@ -36,4 +36,10 @@
   <data name="error_pleasechoosefilefirst" xml:space="preserve">
     <value>請先選擇檔</value>
   </data>
+  <data name="guide.Text" xml:space="preserve">
+    <value>操作方法：
+1.點擊「打開檔」選擇要轉換為TXT的PDF檔
+2.點擊「選擇保存位置」選擇轉換成功後TXT的保存位置
+3.點擊「開始」開始將PDF轉換為TXT</value>
+  </data>
 </root>

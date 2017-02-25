@@ -36,4 +36,10 @@
   <data name="error_pleasechoosefilefirst" xml:space="preserve">
     <value>Valitse tiedosto</value>
   </data>
+  <data name="guide.Text" xml:space="preserve">
+    <value>Miten:
+1. Valitse "Avaa tiedosto" PDF-tiedoston muuntaa TXT 
+2. Klikkaa "valita sijainti" Valitse TXT muistipaikka after menestyksellinen jalostus 
+3. Napsauta "Käynnistä" Käynnistä muuntaa PDF TXT</value>
+  </data>
 </root>

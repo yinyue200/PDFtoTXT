@@ -36,4 +36,10 @@
   <data name="error_pleasechoosefilefirst" xml:space="preserve">
     <value>파일을 선택 하십시오</value>
   </data>
+  <data name="guide.Text" xml:space="preserve">
+    <value>하는 방법:
+1. "파일 열기" 선택 TXT 
+2 변환 PDF 파일을 클릭 합니다. 클릭는 "저장을 선택 위치" 
+3 성공적인 변환 후 TXT 저장 위치 선택. 시작 "시작" 클릭 TXT를 위해 PDF를 변환</value>
+  </data>
 </root>

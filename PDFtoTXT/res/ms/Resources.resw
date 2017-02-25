@@ -36,4 +36,10 @@
   <data name="error_pleasechoosefilefirst" xml:space="preserve">
     <value>Sila pilih fail</value>
   </data>
+  <data name="guide.Text" xml:space="preserve">
+    <value>Bagaimana untuk:
+1. klik "Buka fail" Pilih fail PDF untuk menukar TXT 
+2. Klik di "pilih Simpan satu lokasi" Pilih TXT lokasi simpan selepas penukaran berjaya 
+3. Klik pada "mula" mula menukar PDF kepada TXT</value>
+  </data>
 </root>

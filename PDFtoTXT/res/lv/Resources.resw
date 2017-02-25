@@ -36,4 +36,10 @@
   <data name="error_pleasechoosefilefirst" xml:space="preserve">
     <value>Lūdzu, atlasiet failu</value>
   </data>
+  <data name="guide.Text" xml:space="preserve">
+    <value>Kā:
+1. noklikšķiniet uz "atvērt failu" atlasiet PDF failu, ko pārvērst TXT 
+2. noklikšķiniet uz "izvēlieties saglabāt vietu" atlasiet TXT saglabāšanas vietu pēc veiksmīgas konvertēšanas 
+3. noklikšķiniet uz "start" start pārvērst PDF TXT</value>
+  </data>
 </root>

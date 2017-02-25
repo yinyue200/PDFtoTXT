@@ -36,4 +36,10 @@
   <data name="error_pleasechoosefilefirst" xml:space="preserve">
     <value>กรุณาเลือกแฟ้ม</value>
   </data>
+  <data name="guide.Text" xml:space="preserve">
+    <value>วิธีการ:
+1. คลิก "open file" เลือกไฟล์ PDF การแปลง TXT 
+2. คลิ๊ก "เลือกการบันทึกตำแหน่ง" เลือก TXT บันทึกสถานที่มีระดับ
+3. คลิกที่ "เริ่มต้น" เริ่มต้นแปลงไฟล์ PDF เป็น TXT</value>
+  </data>
 </root>

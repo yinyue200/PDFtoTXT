@@ -36,4 +36,10 @@
   <data name="error_pleasechoosefilefirst" xml:space="preserve">
     <value>Bitte wählen Sie eine Datei</value>
   </data>
+  <data name="guide.Text" xml:space="preserve">
+    <value>Gewusst wie:
+1. Klicken Sie auf "Datei öffnen" wählen Sie die PDF-Datei konvertieren TXT 
+2. Klicken Sie auf die "wählen Sie eine sichere Lage" TXT Speicherort auswählen, nachdem eine erfolgreiche Konvertierung 
+3. Klicken Sie auf "start" Start PDF in TXT umwandeln</value>
+  </data>
 </root>

@@ -36,4 +36,10 @@
   <data name="error_pleasechoosefilefirst" xml:space="preserve">
     <value>Vui lòng chọn một tập tin</value>
   </data>
+  <data name="guide.Text" xml:space="preserve">
+    <value>Làm thế nào để:
+1. nhấp vào "mở tập tin" chọn tập tin PDF để chuyển đổi TXT 
+2. click vào các "chọn lưu lại một vị trí" chọn TXT lưu vị trí sau khi chuyển đổi thành công 
+3. click vào "bắt đầu" bắt đầu chuyển đổi PDF để TXT</value>
+  </data>
 </root>

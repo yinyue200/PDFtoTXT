@@ -36,4 +36,10 @@
   <data name="error_pleasechoosefilefirst" xml:space="preserve">
     <value>נא בחר קובץ</value>
   </data>
+  <data name="guide.Text" xml:space="preserve">
+    <value>כיצד:
+1. לחץ על "פתח קובץ" בחר קובץ ה-PDF כדי להמיר TXT 
+2. לחץ על "בחר שמירה מיקום" בחר TXT מיקום שמירה לאחר המרה מוצלחת 
+3. לחץ על "התחל" להתחיל להמיר PDF ל TXT</value>
+  </data>
 </root>
