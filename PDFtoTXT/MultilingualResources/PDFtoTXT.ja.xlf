@@ -38,6 +38,16 @@
           <source>请先选择文件</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">ファイルを選択してください。</target>
         </trans-unit>
+        <trans-unit id="guide.Text" translate="yes" xml:space="preserve">
+          <source>操作方法：
+1.点击“打开文件”选择要转换为TXT的PDF文件
+2.点击“选择保存位置”选择转换成功后TXT的保存位置
+3.点击“开始”开始将PDF转换为TXT</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">方法:
+1"ファイルを開く"は、 
+2 TXT に変換する PDF ファイルを選択をクリックします。 をクリック、「セーブセットを選択場所"変換
+3 が成功した後、保存場所 TXT を選択。 スタートの"スタート"をクリックして PDF を TXT に変換する。</target>
+        </trans-unit>
       </group>
     </body>
   </file>
