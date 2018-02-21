@@ -7,25 +7,26 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <StackPanel Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Button x:Uid="openfile" Margin="10,5,5,5" x:Name="cp" Click="Button_Click" Width="150">打开文件</Button>
-        <Button x:Uid="choosesaveloc" x:Name="ct" Margin="10,5,5,5" Click="Button_Click_1" Width="150">选择保存位置</Button>
-        <ComboBox SelectionChanged="lans_SelectionChanged" x:Name="lans" Header="OCR Language" Margin="10,5" Width="150">
+    <StackPanel Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" >
+        <TextBlock Text="PDF to TXT" FontSize="36" Margin="10,10,10,20" HorizontalAlignment="Left" />
+        <Button x:Uid="openfile" Margin="10,5,5,5" x:Name="cp" Click="Button_Click" Width="150" Content="打开PDF文件"/>
+        <Button x:Uid="choosesaveloc" x:Name="ct" Margin="10,5,5,5" Click="Button_Click_1" Width="150" Content="选择保存位置"/>
+        <ComboBox SelectionChanged="lans_SelectionChanged" x:Name="lans" Header="OCR 语言选择" Margin="10,5" Width="150">
             <ComboBox.ItemTemplate>
                 <DataTemplate>
-                    <TextBlock Text="{Binding NativeName}"></TextBlock>
+                    <TextBlock Text="{Binding NativeName}"/>
                 </DataTemplate>
             </ComboBox.ItemTemplate>
         </ComboBox>
-        <Button x:Uid="start" x:Name="start" Margin="10,5,5,5" Click="Button_Click_2" Width="150">开始</Button>
-        <TextBlock x:Uid="guide" TextWrapping="Wrap" Margin="5,0,0,0" Text="进度："/>
-        <ProgressBar x:Name="pro" Margin="10,5"/>
-        <TextBlock x:Uid="guide" TextWrapping="Wrap" Margin="5,20,5,0">
+        <Button x:Uid="start" x:Name="start" Margin="10,5,5,5" Click="Button_Click_2" Width="150" Content="开始"/>
+        <TextBlock x:Uid="guide" TextWrapping="Wrap" Margin="10,20,0,0" Text="进度：" HorizontalAlignment="Left"/>
+        <ProgressBar x:Name="pro" Margin="20,5"/>
+        <TextBlock x:Uid="guide" TextWrapping="Wrap" Margin="10,20,0,0" HorizontalAlignment="Left">
             操作方法：<LineBreak/>
-            1.点击“打开文件”选择要转换为TXT的PDF文件；<LineBreak/>
+            1.点击“打开PDF文件”选择要转换为TXT的PDF文件；<LineBreak/>
             2.点击“选择保存位置”选择转换成功后TXT的保存位置；<LineBreak/>
-            3.选择OCR转换语言；
-            4.点击“开始”开始将PDF转换为TXT；<LineBreak/>
+            3.选择OCR转换语言；<LineBreak/>
+            4.点击“开始”开始将PDF转换为TXT;
         </TextBlock>
         <HyperlinkButton x:Uid="about" NavigateUri="https://github.com/yinyue200/PDFtoTXT" Margin="5" Content="关于"/>
     </StackPanel>
