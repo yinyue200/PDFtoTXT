@@ -11,15 +11,15 @@
   IgnorableNamespaces="uap mp uap5 iot2 desktop4 rescap">
 
   <Identity
-    Name="aa687b0b-705d-470c-b965-2a99bcbb713d"
-    Publisher="CN=yinyu"
+    Name="28471.PDF2TXTCLI"
+    Publisher="CN=98718F25-8EB8-43A2-B5FE-108FB92BA328"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="aa687b0b-705d-470c-b965-2a99bcbb713d" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="0723633e-e5bd-4949-b873-56ee5b8e9a77" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>PDF2TXTCLI</DisplayName>
-    <PublisherDisplayName>yinyu</PublisherDisplayName>
+    <PublisherDisplayName>殷越</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
@@ -65,7 +65,6 @@
   </Applications>
 
   <Capabilities>
-    <Capability Name="internetClient" />
     <rescap:Capability Name="broadFileSystemAccess" />
   </Capabilities>
 </Package>

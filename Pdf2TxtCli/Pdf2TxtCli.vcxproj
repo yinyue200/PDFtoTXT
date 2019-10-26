@@ -119,7 +119,15 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
-    <PackageCertificateKeyFile>Pdf2TxtCli_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <GenerateAppInstallerFile>False</GenerateAppInstallerFile>
+    <PackageCertificateThumbprint>152696537E56FFAA726BC1DC3439957094D61C8B</PackageCertificateThumbprint>
+    <AppxPackageSigningTimestampDigestAlgorithm>SHA256</AppxPackageSigningTimestampDigestAlgorithm>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+    <GenerateTestArtifacts>True</GenerateTestArtifacts>
+    <AppxBundle>Always</AppxBundle>
+    <AppxBundlePlatforms>x86|x64|arm|arm64</AppxBundlePlatforms>
+    <AppxPackageSigningEnabled>True</AppxPackageSigningEnabled>
+    <HoursBetweenUpdateChecks>0</HoursBetweenUpdateChecks>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
     <ClCompile>
@@ -303,6 +311,9 @@
     <Image Include="Assets\Wide310x150Logo.scale-100.png" />
     <Image Include="Assets\Wide310x150Logo.scale-200.png" />
     <Image Include="Assets\Wide310x150Logo.scale-400.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Package.StoreAssociation.xml" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
