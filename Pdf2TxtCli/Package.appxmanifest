@@ -13,7 +13,7 @@
   <Identity
     Name="28471.PDF2TXTCLI"
     Publisher="CN=98718F25-8EB8-43A2-B5FE-108FB92BA328"
-    Version="1.0.4.0" />
+    Version="1.0.5.0" />
 
   <mp:PhoneIdentity PhoneProductId="0723633e-e5bd-4949-b873-56ee5b8e9a77" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
@@ -25,7 +25,8 @@
 
   <Dependencies>
     <!--UWP Console apps must target the Desktop, or IoT project type. see https://docs.microsoft.com/en-us/windows/uwp/launch-resume/console-uwp-->
-    <TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.17763.0" MaxVersionTested="10.0.18362.0" />
+    <!--<TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.17763.0" MaxVersionTested="10.0.18362.0" />-->
+    <TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17763.0" MaxVersionTested="10.0.18362.0" />
     <!--<TargetDeviceFamily Name="Windows.IoT" MinVersion="10.0.17763.0" MaxVersionTested="10.0.18362.0" />-->
   </Dependencies>
 
