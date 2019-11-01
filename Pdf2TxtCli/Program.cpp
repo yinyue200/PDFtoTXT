@@ -66,7 +66,10 @@ int wmain()
 		}
 		else {
 			const auto&& result = argparser.parse(__argc, __wargv);
-			if (result[L"listlang"]) {
+			if (result[L"help"]) {
+				std::wcout << argparser;
+			}
+			else if (result[L"listlang"]) {
 				for (const auto&& one : winrt::Windows::Media::Ocr::OcrEngine::AvailableRecognizerLanguages()) {
 					std::wcout << (one.DisplayName() + winrt::hstring(L" (") + one.LanguageTag() + winrt::hstring(L")")).c_str() << std::endl;
 				}
@@ -134,7 +137,12 @@ int wmain()
 
 			}
 			else {
-				std::wcerr << argparser;
+				std::wcout << argparser;
+				std::cout << "\r\n\r\n*** Please open the app in cmd.exe with arguments. ***\r\nFor example:" << std::endl<<
+					"pdf2txtcli.exe -i D:\\input.pdf -o D:\\folder -n output.txt -l en"<<std::endl<<
+					"pdf2txtcli.exe -s"<<std::endl<<
+					"\r\npress any key to exit"
+					;
 				getchar();
 			}
 		}
